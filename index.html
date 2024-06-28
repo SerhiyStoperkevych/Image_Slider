@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <h1 id="picture" class="picture">Image Slider</h1>
+    <div id="images" class="images">
+        <img src="cat1.png" class="cat1" id="cat1" alt="cat1" style="display: block;">
+        <img src="cat2.png" class="cat2" id="cat2" alt="cat2" style="display: none;">
+        <img src="cat3.png" class="cat3" id="cat3" alt="cat3" style="display: none;">
+    </div>
+
+    <ul class="rounds" id="rounds">
+        <button id="first" class="first" style="background-color: pink;"></button>
+        <button id="second" class="second" style="background-color: white;"></button>
+        <button id="third" class="third" style="background-color: white;"></button>
+    </ul>
+
+    <div class="pointers" id="pointers">
+        <button id="decrease" class="decrease"><</button>
+        <button id="increase" class="increase">></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
